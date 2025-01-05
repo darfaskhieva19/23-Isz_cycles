@@ -124,11 +124,11 @@ void Symbol()
 void Multiplication_table()
 {
 	printf("Задание 5: Вывести на экран таблицу умножения.\n");
-	int i, j, a;
+	int a;
 
-	for (i = 1; i <= 10; i++) 
+	for (int i = 1; i <= 10; i++) 
 	{
-		for (j = 1; j <= 10; j++)
+		for (int j = 1; j <= 10; j++)
 		{
 			printf("%d * %d = %d\n", i, j, a = i * j);
 		}
